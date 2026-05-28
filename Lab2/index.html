@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Practice Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-top: 8px solid #2496ed; /* Docker Blue */
+        }
+        h1 {
+            color: #2496ed;
+            margin-bottom: 0.5rem;
+        }
+        .logo {
+            width: 200px;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .status {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.5rem 1.5rem;
+            background-color: #2496ed;
+            color: white;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="docker_logo.png" alt="Docker Logo" class="logo">
+        <h1>Docker 컨테이너 작동 중!</h1>
+        <p>이 페이지는 Docker 컨테이너 내부에서<br>성공적으로 호스팅되고 있습니다.</p>
+        <div class="status">Status: Running</div>
+        <div class="footer">
+            실습 환경: Docker & Nginx
+        </div>
+    </div>
+</body>
+</html>
